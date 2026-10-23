@@ -60,3 +60,9 @@ These four explain most of the code, and breaking them is how bugs get in here.
 ## Before you push
 
 Run `npm test`, then `/ship-ready`. The skill checks the rules above, not just formatting.
+
+## Release Standards
+
+- All changes need test evidence before merging.
+- No direct commits to `main`.
+- Every PR must include a one-line business impact summary.
