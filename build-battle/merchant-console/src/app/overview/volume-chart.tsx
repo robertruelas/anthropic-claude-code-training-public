@@ -18,6 +18,7 @@ export function VolumeChart({
         `$${value.toLocaleString("en-US", { maximumFractionDigits: 0 })}`
       }
       yAxisWidth={64}
+      barCategoryGap="20%"
       showLegend
     />
   )
